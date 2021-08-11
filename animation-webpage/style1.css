@@ -4,14 +4,11 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-}
-
-p{  
+a{  
     font-size: 20px;
     font-style: bold;
     color: snow;
+    text-decoration: none;
 }
 
 body{
@@ -33,30 +30,17 @@ h2{
     height: fit-content;
     margin: 0 auto;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     position: absolute;
-    left: 300px;
-    top: 27%;
+    left: 150px;
+    top: 4%;
     transform: none;
     text-align: center;
 }
 
-.container .sub{
-    width: fit-content;
-    height: fit-content;
-    margin: 0 auto;
-    display: flex;
-    justify-content: left;
-    position: absolute;
-    left: 200px;
-    top: 25%;
-    transform: none;
-    text-align: center;    
-}
-
 .container .title h1{
     color: wheat;
-    font-size: 85px;
+    font-size: 30px;
 }
 
 .container .search{
@@ -95,20 +79,3 @@ h2{
     overflow: hidden;
     cursor: pointer;
 }
-
-.image1{
-    height: 100%;
-}
-
-.image2{
-    height: 100%;
-}
-
-.image3{
-    height: 100%;
-}
-
-.image4{
-    height: 100%;
-}
-
